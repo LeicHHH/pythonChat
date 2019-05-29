@@ -1,29 +1,33 @@
 # pythonChat
 This is my implementation of a python secure chat using TCP and UDP, encryption (AES,RSA), transport layer security (TLS), and hashing algorithms. 
 
-#Getting Started
+## Getting Started
 
 For testing you have to provide certificate and private key for TLS in the same folder of server code named 'certificate.crt' and 'privateKey.key' for UDP is not necesary.
 
 
-#Prerequisites
+### Prerequisites
+```sh
+$ pip install pycrypto
 
-pip install pycrypto\n
+$ pip install pyopenssl
 
-pip install pyopenssl
+$ pip install pyinstaller
+```
 
+### Running the tests
+```sh
 
-#Running the tests
+$ pyinstaller --onefile client.py
 
-pyinstaller --onefile client.py
+$ pyinstaller --onefile server.py
 
-pyinstaller --onefile server.py
+```
 
+### Built With
+* pyCrypto 
 
-#Built With
-pyCrypto 
+* OpenSSL
 
-OpenSSL
-
-#Authors
+###Authors
 Sebastian Mahuzier.
