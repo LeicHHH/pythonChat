@@ -8,18 +8,21 @@ For testing you have to provide certificate and private key for TLS in the same 
 
 #Prerequisites
 
-pip install pycrypto
+pip install pycrypto\n
+
 pip install pyopenssl
 
 
 #Running the tests
 
 pyinstaller --onefile client.py
+
 pyinstaller --onefile server.py
 
 
 #Built With
 pyCrypto 
+
 OpenSSL
 
 #Authors
