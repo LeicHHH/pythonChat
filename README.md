@@ -1,5 +1,5 @@
 # pythonChat
-This is my implementation of a python secure chat using TCP and UDP, encryption (AES,RSA), transport layer security (TLS), and hashing algorithms. 
+This is my implementation of a python server-client secure chat using TCP and UDP, encryption (AES,RSA), transport layer security (TLS), and hashing algorithms. 
 
 ## Getting Started
 
